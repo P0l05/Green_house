@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 800px) {
+    .headerContainer .headerContainerOptions #headerContainerOptions2 {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #headerlogo {
+        font-size: -50%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    main {
+
+        width: 100%;
+    }
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -78,9 +100,38 @@ main{
     background-color: white;
 }
 
-#fototot{
-    margin-left: 25em;
-    height: 500px;
+#backgroudm{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.fototot{
+height: 700px;
+margin-left: 3em;
+margin-right: 3em;
+
+}
+
+#serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.serv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 4;
+}
+
+.imgserv{
+    height: 200px;
+}
+
+#serv .imgserv p{
+
 }
 
 #text0{
@@ -154,3 +205,43 @@ hr{
 #textPrincipal p{
 
 }
+
+.containerform {
+    width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+  }
+  
+  .containerform h1 {
+    text-align: center;
+  }
+  
+  label,
+  input,
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  #mapa{
+    display: flex;
+    margin-right: 4em;
+    position: relative;
+    border: 5px;
+    border-radius: 15px;
+  }
